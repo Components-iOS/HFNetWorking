@@ -21,7 +21,7 @@
   "requires_arc": true,
   "resource_bundles": {
     "HFNetWorking": [
-      "HFNetWorking/Assets/PrivacyInfo.xcprivacy"
+      "HFNetWorking/Assets/*"
     ]
   },
   "source_files": "HFNetWorking/Classes/**/*"

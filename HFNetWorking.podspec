@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   
   s.resource_bundles = {
-      'HFNetWorking' => ['HFNetWorking/Assets/PrivacyInfo.xcprivacy']
+      'HFNetWorking' => ['HFNetWorking/Assets/*']
   }
   
   s.source_files = 'HFNetWorking/Classes/**/*'

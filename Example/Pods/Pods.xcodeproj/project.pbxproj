@@ -7,50 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0685187FF252D4F2EF0EEC7353171C62 /* UIActivityIndicatorView+HFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D6405F73AD62A9B6D4F79D84CCE3719C /* UIActivityIndicatorView+HFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0801F7400B070DA117CC2252CD086F92 /* UIActivityIndicatorView+HFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FD40BE449B0D2D7646BED0318CFFC4 /* UIActivityIndicatorView+HFNetworking.m */; };
-		098E6C91421F6B8760A9CCDD553B0051 /* HFNetWorking-HFNetWorking in Resources */ = {isa = PBXBuildFile; fileRef = F1EA89B42FAF40880E0A53628C36ACCB /* HFNetWorking-HFNetWorking */; };
-		1318333C9F2EE1D793E2EF932454456C /* HFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E3B778C6E7A2FDC6828F699FBCD14B /* HFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E410CD334B3231E7C15889666396A6C /* HFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 223FF2E8A6396A2082F8446610901C61 /* HFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FA1FB8806F95FEFBE4032B96ED0ACB0 /* HFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1B10C23C14F49C465DE2E466791775 /* HFURLRequestSerialization.m */; };
 		1489E56A6A9BE9E3A6E47245A2B667CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		1D8BC85CDFFFAE0F149C3D2D37E9BD1B /* UIImageView+HFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A3B291B79D505C145A5C87E76F00DA /* UIImageView+HFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21997BE7382314E457023042D8CE02C6 /* Pods-HFNetWorking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBDFB03CB0D3665C6749607C94B5B1E /* Pods-HFNetWorking_Example-dummy.m */; };
+		22E595C5626A4EEF56EA02AA8A0B52B4 /* HFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 827B6BE18243C0897BA10014F78F8BD2 /* HFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2627C3F270A99E7C7BD8B6246E7E3A7C /* Pods-HFNetWorking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F25B55AB48645E2714E4292383724DC /* Pods-HFNetWorking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		262AE4C5B2934BD3F0A5F062D3EC6D8D /* UIActivityIndicatorView+HFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E87047D24DDFFF263ACC4883852CB83 /* UIActivityIndicatorView+HFNetworking.m */; };
+		26AD55DA5E7974F857992095BAAA06C6 /* UIProgressView+HFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7705896BA1C55AE98CCB4E2F6D8733 /* UIProgressView+HFNetworking.m */; };
+		2ED19C76AE7C55E6E9AAD6CD7C161554 /* UIImageView+HFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F61D9BA64B7C8E281180B61A563370 /* UIImageView+HFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30F67196D1EE7F7EFEAD5C9EEA7745A4 /* HFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 887A224810C152BA87AC0CCAC9F41F47 /* HFImageDownloader.m */; };
+		352B123F5C8486FCD9D5D7D81C2627F9 /* HFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A562190C73654111B3B5CA4632DF62B8 /* HFNetworkActivityIndicatorManager.m */; };
 		3BD1CD73D76A6409D51B4C0A2F0E5CDB /* Pods-HFNetWorking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DD01A1D5A47794DCC74AC217205A88 /* Pods-HFNetWorking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DE97C25CB92FE65090D4275CE0CCBC4 /* HFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 798536119ECF459E6075077B53830CCC /* HFURLResponseSerialization.m */; };
-		416F598F20941DD79B4DD9C5713AD7C1 /* HFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = A649A2185C89CCBF123ED9638277B5E5 /* HFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47221B81378B937F9191802FA96E6318 /* HFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E24EBF0518CC65179925D1406AA2B62 /* HFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57372F48B3BE54C436027F80152B8F7A /* WKWebView+HFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C02A943F447A4B6088E606BB0F9CF996 /* WKWebView+HFNetworking.m */; };
-		5ECC06A00401956D342E032B6411183A /* HFNetWorking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9FE37E607B3EB7BEDD43187B4E0661 /* HFNetWorking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F7BD2C620AD4FB8A9559CAD430FD0D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		65B87250222B3DCE332EA314CA62BE00 /* HFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B9A861351831332D1186A9840F53B8 /* HFNetworkActivityIndicatorManager.m */; };
+		442F3C57D3817C17AB780E023B1E8E4F /* UIImageView+HFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F6731C66B57C0904C99673745E5DC /* UIImageView+HFNetworking.m */; };
+		56251CC021B81B2F15D9F66DA445EA18 /* HFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 732C7552CCC134AF3365892413B57E9E /* HFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6303B9B93A5198DA4BCCF8FBD23DCD96 /* HFNetWorking-HFNetWorking in Resources */ = {isa = PBXBuildFile; fileRef = F1EA89B42FAF40880E0A53628C36ACCB /* HFNetWorking-HFNetWorking */; };
+		6A6D40EBB9940CEBCBD71190BCAC0330 /* HFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7399C555BB9816849DD4F936C593DF30 /* HFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AFA808ECF181BC844F003E5AEF80FE9 /* HFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D150B8D941DE8241B83B7E963849F4 /* HFAutoPurgingImageCache.m */; };
+		6B440389FBBF873FC1E32CC7289821C3 /* UIKit+HFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AF5DDCB020EBF688ED97E3BCFBD90744 /* UIKit+HFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D142BFE2F881649AC166371C120131B /* HFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D42B17CA431AF02906A5A16C0A7CEE /* HFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7009D74BE9C40F4EC78AB30DD2832B84 /* HFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A6F38AED911E72BF62F6F9857BD2F9 /* HFNetworkReachabilityManager.m */; };
+		70B5022B1A9EE1C36C2153FCF61E75CE /* UIButton+HFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C5C1917158884B80BE05A31683A922 /* UIButton+HFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72FEE4AD6397B8D60662DE9CE4C0113E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		7A88C8ED3A9414D505C83A2E7A9C32DA /* HFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3151BE4739F652E9B12D77C9795C68 /* HFAutoPurgingImageCache.m */; };
-		7D00F66A3B16F86D829B4BEBE5A0E297 /* HFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7371A287EAF34F6179E23DA1B22B19B1 /* HFHTTPSessionManager.m */; };
-		7DEB104C87C9EC1F3F6E72C4D6CE7668 /* HFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E42E3B75E5EAD6171754A6BB4CADFD /* HFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		836E8C0044B1CD674AC2EAAEE855B7D6 /* UIKit+HFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E81AB0E7E67943CE7E324E22160D6967 /* UIKit+HFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BB29FA711DCA39E26060E6F51BD7DA3 /* HFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4007BA1FC6A71DE9124AB0AB8CFF2FFB /* HFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B2C10C7462CD60B36CD2B000E9FFDCC /* UIButton+HFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F469A4B6CFD55C48515C056AFE6FAE6C /* UIButton+HFNetworking.m */; };
-		9D75F406F8213E063878C895267E3672 /* UIButton+HFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B184D56DE778F24ED1ED60F6E573B0 /* UIButton+HFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A20C7E0D809EAE3FEA5D4C3DFD6F7063 /* UIProgressView+HFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFEDD0B725C3D83B1EEF3DA377D0E9 /* UIProgressView+HFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A86AEDDE3C879CF435E6DFD6F57D13E7 /* HFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 37FD6E25AB88AAF8B38A658618A3BFFD /* HFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8E124350978E72E7585ECD7DDB2FD7C /* UIProgressView+HFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BF6522B7A3FE17B7CD28B4365B39DC /* UIProgressView+HFNetworking.m */; };
-		B18C5F1397FA2CDDEA03ED167D7FCB85 /* HFNetWorking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 913E40A9B7DD41E5B09AD01C55849D18 /* HFNetWorking-dummy.m */; };
-		B247B524AC47B5239E455AC2423FBA45 /* HFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 35492EB479589BC2EA4B0EC3B8744211 /* HFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBE15DD7277CA141EE1987858045B7E0 /* HFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CCFDD17B1D49C3696823027A55F7F950 /* HFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC9D7AEED4EE53E88F7EF4C41C464073 /* UIRefreshControl+HFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3299D52A3B032AE32DDF37CCC00A7ED0 /* UIRefreshControl+HFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE8E507E45CFA21AD4F9B67E042B950A /* HFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 139326C4421708843B3B9F78393E7BD2 /* HFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73350326CEB8D1360E2729CE52CAE1B7 /* HFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FCAE29B2A1D2D82400626AE12EAFFD /* HFSecurityPolicy.m */; };
+		83B43D00F2AA371C182ECB5ED11FD7C6 /* HFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C228FB56AB7B67A1D1E1DF94BB73285 /* HFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8779BDCEB95FC51986027A97D9646800 /* HFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36390EAA7F5CCD249E1E9CB980BE3B7A /* HFURLSessionManager.m */; };
+		92E7FA9B697E9149A1AB86920CC0D81A /* HFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 082A74EA007B08F94016360CA54810A2 /* HFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96F5AF662C5880750F25E5C50D6DA43D /* HFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 37FB9A776FAE29D7028450020440A7CC /* HFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A073EDC46090B4C9598B24CFB3AD7C11 /* HFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9866C59547BBB87D1622B4714E15B26 /* HFHTTPSessionManager.m */; };
+		A42201E1EE7E30F6228F4BCE244AB7F7 /* HFNetWorking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A9A45D960895287BADD04A7174BDF3 /* HFNetWorking-dummy.m */; };
+		AB466B2B30E8334FE20D23F243976199 /* HFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D10293646A759A8160B9309783E9D9E /* HFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4305162F55544F81CD048BA8E29A7E3 /* UIButton+HFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B7CE14774AD5886E4928FB7DC195A /* UIButton+HFNetworking.m */; };
+		B5F4076C99BBFCC00DBD5E9B089C7D5A /* UIRefreshControl+HFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0E2B38AB8F4C71D66FF828C930F1A3 /* UIRefreshControl+HFNetworking.m */; };
+		B7601CADE1B32604E45C1F1AF0CF309E /* HFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E94B27D4FA239596F7BBD9F7881A2CAD /* HFURLResponseSerialization.m */; };
+		BC8F8088FE8E4C3B1958A2C329E2D2D4 /* UIProgressView+HFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C2B541D7E3FE5C294EFD878C23CBF6B /* UIProgressView+HFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C159495A46B5DB509ECA9E258168525A /* Pods-HFNetWorking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1128FDAC282F728F4181532FE7E6CF /* Pods-HFNetWorking_Tests-dummy.m */; };
-		C1A82BB64D049CED15B278E4F95D7119 /* HFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F700FCC2C9AA69E46CBE7FC472296AD /* HFURLRequestSerialization.m */; };
-		C45E2A9FABED26ED0F05310C3CC3DE6E /* PrivacyInfo.xcprivacy in Sources */ = {isa = PBXBuildFile; fileRef = A33D1C2678B18FF82B54E0CCAF9D90B4 /* PrivacyInfo.xcprivacy */; };
-		D68A1A1D0C410A005818BF7B2C4FB6AF /* HFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9476C80B1466BFDDEA05C8A329244F7F /* HFSecurityPolicy.m */; };
-		DCF89B6A05049E68B83C12A0C13E22C0 /* HFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A62343A8CD2BBDC9A87FB9A804047D37 /* HFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDA7C9EFFD01788F043676BFCA75A64C /* UIRefreshControl+HFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C5929E22ED85F140F4040B366D5554 /* UIRefreshControl+HFNetworking.m */; };
-		E17B7BA5A754B26EF1AC67D4D5535410 /* HFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F54E165738355391D75D9308547C83 /* HFURLSessionManager.m */; };
-		E556C17466722CEFEC5E29CA9AC58EC1 /* HFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF07B3CC5441B27E2AB373DE1186141 /* HFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB96D2FF5A41B348A49D8C76E5AB3B42 /* HFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 524ACFE737C93F84C0C3167EDA3F767A /* HFNetworkReachabilityManager.m */; };
-		ED196892D4223E0BDF81324EE95E4B04 /* HFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E17117F7A0A752A6455AC89FCD9843 /* HFImageDownloader.m */; };
-		F23320034EC18EF6C6946C4D101BB584 /* WKWebView+HFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D46CCD68FEE53453674DA4E786816922 /* WKWebView+HFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7A3A62280D3A0BD70FA8D6399AB5524 /* UIImageView+HFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 94395A73FDF610E1F8A20171947731E3 /* UIImageView+HFNetworking.m */; };
+		C2D725A6B9FB72E4A7CC58E1B4B7E78B /* UIRefreshControl+HFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AFEA7908A03061E1494971EC3FBECE1F /* UIRefreshControl+HFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C48727D28B4DFAD96BCEB1FA98216FEA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 51C41E29FB65F2FFD98A5BAA16F527F6 /* PrivacyInfo.xcprivacy */; };
+		C9526D98E44337657E905B3BAE292718 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		CBD1607BFCAA7ED3F0FC02734EB385CC /* HFNetWorking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 818463B3573E0867E1327105A487933F /* HFNetWorking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E32CA1F11D132A37706AD5C364516F37 /* HFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 143E799BC98979EF2B6E9970D9B03359 /* HFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F853D5176FC4FE90A3FFB21017BC0BBD /* HFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DE42F64D650894C00F834316D8402CC3 /* HFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8EE79DA15D30AF868FA2C08E7CD178F /* WKWebView+HFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A91322B45009863C4BC6FDD1A973C1E1 /* WKWebView+HFNetworking.m */; };
+		F91F5B44667995B90A90477859C6F04C /* WKWebView+HFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 01245B6B75CBAEF6C005865AE26D7083 /* WKWebView+HFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCCA9B0FBCECD381F8AE1CC270EFE591 /* UIActivityIndicatorView+HFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 01367A462873B684924A728D75E1A12F /* UIActivityIndicatorView+HFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +61,7 @@
 			remoteGlobalIDString = C7ED3D4FD78646A129776DBEC9EA3CB1;
 			remoteInfo = "Pods-HFNetWorking_Example";
 		};
-		5AE7ABEBC7FB89D6A6C3002B6CDDD476 /* PBXContainerItemProxy */ = {
+		55EC6B73B51B0D1CFB52ECB21E6C09EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -78,73 +78,73 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01245B6B75CBAEF6C005865AE26D7083 /* WKWebView+HFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+HFNetworking.h"; path = "HFNetWorking/Classes/WKWebView+HFNetworking.h"; sourceTree = "<group>"; };
+		01367A462873B684924A728D75E1A12F /* UIActivityIndicatorView+HFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+HFNetworking.h"; path = "HFNetWorking/Classes/UIActivityIndicatorView+HFNetworking.h"; sourceTree = "<group>"; };
 		06DD01A1D5A47794DCC74AC217205A88 /* Pods-HFNetWorking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFNetWorking_Tests-umbrella.h"; sourceTree = "<group>"; };
+		07FCAE29B2A1D2D82400626AE12EAFFD /* HFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFSecurityPolicy.m; path = HFNetWorking/Classes/HFSecurityPolicy.m; sourceTree = "<group>"; };
+		082A74EA007B08F94016360CA54810A2 /* HFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFHTTPSessionManager.h; path = HFNetWorking/Classes/HFHTTPSessionManager.h; sourceTree = "<group>"; };
 		094D96A5706A87B16E08FACFD77CC645 /* Pods-HFNetWorking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFNetWorking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0F700FCC2C9AA69E46CBE7FC472296AD /* HFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFURLRequestSerialization.m; path = HFNetWorking/Classes/HFURLRequestSerialization.m; sourceTree = "<group>"; };
 		1023A319533BBA661872B208F989F495 /* Pods-HFNetWorking_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HFNetWorking_Tests"; path = Pods_HFNetWorking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		139326C4421708843B3B9F78393E7BD2 /* HFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFNetworking.h; path = HFNetWorking/Classes/HFNetworking.h; sourceTree = "<group>"; };
-		14A3B291B79D505C145A5C87E76F00DA /* UIImageView+HFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HFNetworking.h"; path = "HFNetWorking/Classes/UIImageView+HFNetworking.h"; sourceTree = "<group>"; };
+		143E799BC98979EF2B6E9970D9B03359 /* HFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFNetworkActivityIndicatorManager.h; path = HFNetWorking/Classes/HFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
 		17515D2859436C995F07DD6CD8D5DA1D /* Pods-HFNetWorking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFNetWorking_Example.release.xcconfig"; sourceTree = "<group>"; };
-		17F54E165738355391D75D9308547C83 /* HFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFURLSessionManager.m; path = HFNetWorking/Classes/HFURLSessionManager.m; sourceTree = "<group>"; };
 		18BD385B4146ABBD2EFFD09F9A9D1FC9 /* Pods-HFNetWorking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HFNetWorking_Tests.modulemap"; sourceTree = "<group>"; };
 		1BD31169E0A708F11A9114DB5C89630B /* Pods-HFNetWorking_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HFNetWorking_Example"; path = Pods_HFNetWorking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E24EBF0518CC65179925D1406AA2B62 /* HFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFCompatibilityMacros.h; path = HFNetWorking/Classes/HFCompatibilityMacros.h; sourceTree = "<group>"; };
-		1E3151BE4739F652E9B12D77C9795C68 /* HFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFAutoPurgingImageCache.m; path = HFNetWorking/Classes/HFAutoPurgingImageCache.m; sourceTree = "<group>"; };
+		1C228FB56AB7B67A1D1E1DF94BB73285 /* HFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFURLSessionManager.h; path = HFNetWorking/Classes/HFURLSessionManager.h; sourceTree = "<group>"; };
+		1D1B10C23C14F49C465DE2E466791775 /* HFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFURLRequestSerialization.m; path = HFNetWorking/Classes/HFURLRequestSerialization.m; sourceTree = "<group>"; };
 		1F25B55AB48645E2714E4292383724DC /* Pods-HFNetWorking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFNetWorking_Example-umbrella.h"; sourceTree = "<group>"; };
-		2279B4F9A0E84B9447DF8D2D27DF0BC3 /* HFNetWorking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HFNetWorking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		223FF2E8A6396A2082F8446610901C61 /* HFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFAutoPurgingImageCache.h; path = HFNetWorking/Classes/HFAutoPurgingImageCache.h; sourceTree = "<group>"; };
 		2554F1728069A849AFACCD1882674AB0 /* Pods-HFNetWorking_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFNetWorking_Example-Info.plist"; sourceTree = "<group>"; };
-		27B9A861351831332D1186A9840F53B8 /* HFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFNetworkActivityIndicatorManager.m; path = HFNetWorking/Classes/HFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
-		2B90C0488C9712A98C62DA2F89333AA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3299D52A3B032AE32DDF37CCC00A7ED0 /* UIRefreshControl+HFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+HFNetworking.h"; path = "HFNetWorking/Classes/UIRefreshControl+HFNetworking.h"; sourceTree = "<group>"; };
-		35492EB479589BC2EA4B0EC3B8744211 /* HFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFURLResponseSerialization.h; path = HFNetWorking/Classes/HFURLResponseSerialization.h; sourceTree = "<group>"; };
-		37FD6E25AB88AAF8B38A658618A3BFFD /* HFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFNetworkReachabilityManager.h; path = HFNetWorking/Classes/HFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		2B0E2B38AB8F4C71D66FF828C930F1A3 /* UIRefreshControl+HFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+HFNetworking.m"; path = "HFNetWorking/Classes/UIRefreshControl+HFNetworking.m"; sourceTree = "<group>"; };
+		36390EAA7F5CCD249E1E9CB980BE3B7A /* HFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFURLSessionManager.m; path = HFNetWorking/Classes/HFURLSessionManager.m; sourceTree = "<group>"; };
+		36D42B17CA431AF02906A5A16C0A7CEE /* HFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFURLResponseSerialization.h; path = HFNetWorking/Classes/HFURLResponseSerialization.h; sourceTree = "<group>"; };
+		37057B47E3485DB64962C6341561185F /* HFNetWorking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HFNetWorking-Info.plist"; sourceTree = "<group>"; };
+		37FB9A776FAE29D7028450020440A7CC /* HFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFImageDownloader.h; path = HFNetWorking/Classes/HFImageDownloader.h; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		39B184D56DE778F24ED1ED60F6E573B0 /* UIButton+HFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+HFNetworking.h"; path = "HFNetWorking/Classes/UIButton+HFNetworking.h"; sourceTree = "<group>"; };
-		3B1A73BAC79030C1F796F4E338DB397F /* HFNetWorking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HFNetWorking-Info.plist"; sourceTree = "<group>"; };
-		4007BA1FC6A71DE9124AB0AB8CFF2FFB /* HFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFNetworkActivityIndicatorManager.h; path = HFNetWorking/Classes/HFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
-		426FB2629722A2BF99305FEDCADAE38E /* ResourceBundle-HFNetWorking-HFNetWorking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HFNetWorking-HFNetWorking-Info.plist"; sourceTree = "<group>"; };
-		487BFA4A98008A4E9A0E1DC26EA541FE /* HFNetWorking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFNetWorking.debug.xcconfig; sourceTree = "<group>"; };
+		3C1F6731C66B57C0904C99673745E5DC /* UIImageView+HFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HFNetworking.m"; path = "HFNetWorking/Classes/UIImageView+HFNetworking.m"; sourceTree = "<group>"; };
+		3EEAD714CAD6D614BDEA31733F82EEA6 /* HFNetWorking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HFNetWorking.modulemap; sourceTree = "<group>"; };
+		4062C6D271EE1CFD656F59351B49DAFF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		4C1128FDAC282F728F4181532FE7E6CF /* Pods-HFNetWorking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFNetWorking_Tests-dummy.m"; sourceTree = "<group>"; };
-		524ACFE737C93F84C0C3167EDA3F767A /* HFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFNetworkReachabilityManager.m; path = HFNetWorking/Classes/HFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		54BF6522B7A3FE17B7CD28B4365B39DC /* UIProgressView+HFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+HFNetworking.m"; path = "HFNetWorking/Classes/UIProgressView+HFNetworking.m"; sourceTree = "<group>"; };
-		5C47836549A851ACAB0956097E9B2929 /* HFNetWorking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFNetWorking.release.xcconfig; sourceTree = "<group>"; };
+		4C2B541D7E3FE5C294EFD878C23CBF6B /* UIProgressView+HFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+HFNetworking.h"; path = "HFNetWorking/Classes/UIProgressView+HFNetworking.h"; sourceTree = "<group>"; };
+		4E87047D24DDFFF263ACC4883852CB83 /* UIActivityIndicatorView+HFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+HFNetworking.m"; path = "HFNetWorking/Classes/UIActivityIndicatorView+HFNetworking.m"; sourceTree = "<group>"; };
+		51C41E29FB65F2FFD98A5BAA16F527F6 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = HFNetWorking/Assets/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		55A9A45D960895287BADD04A7174BDF3 /* HFNetWorking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HFNetWorking-dummy.m"; sourceTree = "<group>"; };
+		56C5C1917158884B80BE05A31683A922 /* UIButton+HFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+HFNetworking.h"; path = "HFNetWorking/Classes/UIButton+HFNetworking.h"; sourceTree = "<group>"; };
 		6897025D5B8CD9185FBC4CD934A597E6 /* Pods-HFNetWorking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFNetWorking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A3216D039E27704DA1F9FCC0E26BB93 /* Pods-HFNetWorking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFNetWorking_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7371A287EAF34F6179E23DA1B22B19B1 /* HFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFHTTPSessionManager.m; path = HFNetWorking/Classes/HFHTTPSessionManager.m; sourceTree = "<group>"; };
-		7615232D9F658A21297BC859C66C6A51 /* HFNetWorking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFNetWorking-prefix.pch"; sourceTree = "<group>"; };
-		76C4ADEDB7741E77FCDDE7C5140B653D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		798536119ECF459E6075077B53830CCC /* HFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFURLResponseSerialization.m; path = HFNetWorking/Classes/HFURLResponseSerialization.m; sourceTree = "<group>"; };
+		732C7552CCC134AF3365892413B57E9E /* HFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFURLRequestSerialization.h; path = HFNetWorking/Classes/HFURLRequestSerialization.h; sourceTree = "<group>"; };
+		7399C555BB9816849DD4F936C593DF30 /* HFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFNetworking.h; path = HFNetWorking/Classes/HFNetworking.h; sourceTree = "<group>"; };
+		79F61D9BA64B7C8E281180B61A563370 /* UIImageView+HFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HFNetworking.h"; path = "HFNetWorking/Classes/UIImageView+HFNetworking.h"; sourceTree = "<group>"; };
 		7F15BE58123D914B318560DCE6B17840 /* HFNetWorking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HFNetWorking; path = HFNetWorking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85FD40BE449B0D2D7646BED0318CFFC4 /* UIActivityIndicatorView+HFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+HFNetworking.m"; path = "HFNetWorking/Classes/UIActivityIndicatorView+HFNetworking.m"; sourceTree = "<group>"; };
-		89B29181B85AC3371AF2809333397EE3 /* HFNetWorking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HFNetWorking.modulemap; sourceTree = "<group>"; };
+		818463B3573E0867E1327105A487933F /* HFNetWorking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFNetWorking-umbrella.h"; sourceTree = "<group>"; };
+		827B6BE18243C0897BA10014F78F8BD2 /* HFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFSecurityPolicy.h; path = HFNetWorking/Classes/HFSecurityPolicy.h; sourceTree = "<group>"; };
+		8526C77BAA8ED5B7A936C8C744F08549 /* HFNetWorking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFNetWorking.debug.xcconfig; sourceTree = "<group>"; };
+		887A224810C152BA87AC0CCAC9F41F47 /* HFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFImageDownloader.m; path = HFNetWorking/Classes/HFImageDownloader.m; sourceTree = "<group>"; };
 		8A266DC89B883980EF043007A1DD98AE /* Pods-HFNetWorking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HFNetWorking_Example.modulemap"; sourceTree = "<group>"; };
-		913E40A9B7DD41E5B09AD01C55849D18 /* HFNetWorking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HFNetWorking-dummy.m"; sourceTree = "<group>"; };
-		93E3B778C6E7A2FDC6828F699FBCD14B /* HFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFURLRequestSerialization.h; path = HFNetWorking/Classes/HFURLRequestSerialization.h; sourceTree = "<group>"; };
-		94395A73FDF610E1F8A20171947731E3 /* UIImageView+HFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HFNetworking.m"; path = "HFNetWorking/Classes/UIImageView+HFNetworking.m"; sourceTree = "<group>"; };
-		9476C80B1466BFDDEA05C8A329244F7F /* HFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFSecurityPolicy.m; path = HFNetWorking/Classes/HFSecurityPolicy.m; sourceTree = "<group>"; };
+		8D10293646A759A8160B9309783E9D9E /* HFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFNetworkReachabilityManager.h; path = HFNetWorking/Classes/HFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		91A6F38AED911E72BF62F6F9857BD2F9 /* HFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFNetworkReachabilityManager.m; path = HFNetWorking/Classes/HFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		9CBDFB03CB0D3665C6749607C94B5B1E /* Pods-HFNetWorking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFNetWorking_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E9FE37E607B3EB7BEDD43187B4E0661 /* HFNetWorking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFNetWorking-umbrella.h"; sourceTree = "<group>"; };
+		9F5225CFBC898E35D0197ABC6D4DE701 /* ResourceBundle-HFNetWorking-HFNetWorking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HFNetWorking-HFNetWorking-Info.plist"; sourceTree = "<group>"; };
+		9F7705896BA1C55AE98CCB4E2F6D8733 /* UIProgressView+HFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+HFNetworking.m"; path = "HFNetWorking/Classes/UIProgressView+HFNetworking.m"; sourceTree = "<group>"; };
 		9FE3A1984EF0A9BD0BD196A96764786F /* Pods-HFNetWorking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFNetWorking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A33D1C2678B18FF82B54E0CCAF9D90B4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = HFNetWorking/Classes/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		A62343A8CD2BBDC9A87FB9A804047D37 /* HFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFAutoPurgingImageCache.h; path = HFNetWorking/Classes/HFAutoPurgingImageCache.h; sourceTree = "<group>"; };
-		A649A2185C89CCBF123ED9638277B5E5 /* HFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFImageDownloader.h; path = HFNetWorking/Classes/HFImageDownloader.h; sourceTree = "<group>"; };
+		A562190C73654111B3B5CA4632DF62B8 /* HFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFNetworkActivityIndicatorManager.m; path = HFNetWorking/Classes/HFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		A91322B45009863C4BC6FDD1A973C1E1 /* WKWebView+HFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+HFNetworking.m"; path = "HFNetWorking/Classes/WKWebView+HFNetworking.m"; sourceTree = "<group>"; };
+		A9866C59547BBB87D1622B4714E15B26 /* HFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFHTTPSessionManager.m; path = HFNetWorking/Classes/HFHTTPSessionManager.m; sourceTree = "<group>"; };
 		AC2F08D5DE59B43075BDDBECF7992101 /* Pods-HFNetWorking_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFNetWorking_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AEF07B3CC5441B27E2AB373DE1186141 /* HFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFURLSessionManager.h; path = HFNetWorking/Classes/HFURLSessionManager.h; sourceTree = "<group>"; };
-		B1E42E3B75E5EAD6171754A6BB4CADFD /* HFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFSecurityPolicy.h; path = HFNetWorking/Classes/HFSecurityPolicy.h; sourceTree = "<group>"; };
+		AF5DDCB020EBF688ED97E3BCFBD90744 /* UIKit+HFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+HFNetworking.h"; path = "HFNetWorking/Classes/UIKit+HFNetworking.h"; sourceTree = "<group>"; };
+		AFEA7908A03061E1494971EC3FBECE1F /* UIRefreshControl+HFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+HFNetworking.h"; path = "HFNetWorking/Classes/UIRefreshControl+HFNetworking.h"; sourceTree = "<group>"; };
+		B3D150B8D941DE8241B83B7E963849F4 /* HFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFAutoPurgingImageCache.m; path = HFNetWorking/Classes/HFAutoPurgingImageCache.m; sourceTree = "<group>"; };
+		B993230916C37ECD1F7F9D62E58D4EEC /* HFNetWorking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HFNetWorking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA2866A7BA65762FF1D32EA4801E17B2 /* Pods-HFNetWorking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFNetWorking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C02A943F447A4B6088E606BB0F9CF996 /* WKWebView+HFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+HFNetworking.m"; path = "HFNetWorking/Classes/WKWebView+HFNetworking.m"; sourceTree = "<group>"; };
-		C0AFEDD0B725C3D83B1EEF3DA377D0E9 /* UIProgressView+HFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+HFNetworking.h"; path = "HFNetWorking/Classes/UIProgressView+HFNetworking.h"; sourceTree = "<group>"; };
-		CCFDD17B1D49C3696823027A55F7F950 /* HFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFHTTPSessionManager.h; path = HFNetWorking/Classes/HFHTTPSessionManager.h; sourceTree = "<group>"; };
-		D46CCD68FEE53453674DA4E786816922 /* WKWebView+HFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+HFNetworking.h"; path = "HFNetWorking/Classes/WKWebView+HFNetworking.h"; sourceTree = "<group>"; };
+		D190DE774D9EC47C7467E3541C6BC830 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D603F0CD87A9A7BCE1B0D8ADD9156DE9 /* Pods-HFNetWorking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFNetWorking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D6405F73AD62A9B6D4F79D84CCE3719C /* UIActivityIndicatorView+HFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+HFNetworking.h"; path = "HFNetWorking/Classes/UIActivityIndicatorView+HFNetworking.h"; sourceTree = "<group>"; };
-		E81AB0E7E67943CE7E324E22160D6967 /* UIKit+HFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+HFNetworking.h"; path = "HFNetWorking/Classes/UIKit+HFNetworking.h"; sourceTree = "<group>"; };
+		D9AEF2B6719ED8E96BE1931CA335016C /* HFNetWorking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFNetWorking-prefix.pch"; sourceTree = "<group>"; };
+		DD1A65D2B3FB3BBBF58D7B5D5D531FBC /* HFNetWorking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFNetWorking.release.xcconfig; sourceTree = "<group>"; };
+		DE42F64D650894C00F834316D8402CC3 /* HFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFCompatibilityMacros.h; path = HFNetWorking/Classes/HFCompatibilityMacros.h; sourceTree = "<group>"; };
+		E74B7CE14774AD5886E4928FB7DC195A /* UIButton+HFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+HFNetworking.m"; path = "HFNetWorking/Classes/UIButton+HFNetworking.m"; sourceTree = "<group>"; };
+		E94B27D4FA239596F7BBD9F7881A2CAD /* HFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFURLResponseSerialization.m; path = HFNetWorking/Classes/HFURLResponseSerialization.m; sourceTree = "<group>"; };
 		F1EA89B42FAF40880E0A53628C36ACCB /* HFNetWorking-HFNetWorking */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "HFNetWorking-HFNetWorking"; path = HFNetWorking.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24C54F840446A33F4FFD2AD3B615FDA /* Pods-HFNetWorking_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFNetWorking_Tests-Info.plist"; sourceTree = "<group>"; };
-		F469A4B6CFD55C48515C056AFE6FAE6C /* UIButton+HFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+HFNetworking.m"; path = "HFNetWorking/Classes/UIButton+HFNetworking.m"; sourceTree = "<group>"; };
-		F4C5929E22ED85F140F4040B366D5554 /* UIRefreshControl+HFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+HFNetworking.m"; path = "HFNetWorking/Classes/UIRefreshControl+HFNetworking.m"; sourceTree = "<group>"; };
-		F7E17117F7A0A752A6455AC89FCD9843 /* HFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFImageDownloader.m; path = HFNetWorking/Classes/HFImageDownloader.m; sourceTree = "<group>"; };
 		FA974DC1E1A3E53C4BC642CDF191B31A /* Pods-HFNetWorking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFNetWorking_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,32 +165,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DF1D04BE805D4EE44BD75631CED033D /* Frameworks */ = {
+		68873C189851F080E789BC4C7C816C26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E97B8996CECDBFB8D6E31A60B2B7FF07 /* Frameworks */ = {
+		AA4EFB7DF1493CDAB8BC61A7B8B664EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F7BD2C620AD4FB8A9559CAD430FD0D8 /* Foundation.framework in Frameworks */,
+				C9526D98E44337657E905B3BAE292718 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03E3BC95DE9CE6D74442FC908D18A493 /* Pod */ = {
+		18243F6DE2EC4D5DAF82160D5EDEB4C6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2279B4F9A0E84B9447DF8D2D27DF0BC3 /* HFNetWorking.podspec */,
-				76C4ADEDB7741E77FCDDE7C5140B653D /* LICENSE */,
-				2B90C0488C9712A98C62DA2F89333AA3 /* README.md */,
+				B993230916C37ECD1F7F9D62E58D4EEC /* HFNetWorking.podspec */,
+				4062C6D271EE1CFD656F59351B49DAFF /* LICENSE */,
+				D190DE774D9EC47C7467E3541C6BC830 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		26720937D43DB652FED2E5231EB15520 /* HFNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				223FF2E8A6396A2082F8446610901C61 /* HFAutoPurgingImageCache.h */,
+				B3D150B8D941DE8241B83B7E963849F4 /* HFAutoPurgingImageCache.m */,
+				DE42F64D650894C00F834316D8402CC3 /* HFCompatibilityMacros.h */,
+				082A74EA007B08F94016360CA54810A2 /* HFHTTPSessionManager.h */,
+				A9866C59547BBB87D1622B4714E15B26 /* HFHTTPSessionManager.m */,
+				37FB9A776FAE29D7028450020440A7CC /* HFImageDownloader.h */,
+				887A224810C152BA87AC0CCAC9F41F47 /* HFImageDownloader.m */,
+				143E799BC98979EF2B6E9970D9B03359 /* HFNetworkActivityIndicatorManager.h */,
+				A562190C73654111B3B5CA4632DF62B8 /* HFNetworkActivityIndicatorManager.m */,
+				7399C555BB9816849DD4F936C593DF30 /* HFNetworking.h */,
+				8D10293646A759A8160B9309783E9D9E /* HFNetworkReachabilityManager.h */,
+				91A6F38AED911E72BF62F6F9857BD2F9 /* HFNetworkReachabilityManager.m */,
+				827B6BE18243C0897BA10014F78F8BD2 /* HFSecurityPolicy.h */,
+				07FCAE29B2A1D2D82400626AE12EAFFD /* HFSecurityPolicy.m */,
+				732C7552CCC134AF3365892413B57E9E /* HFURLRequestSerialization.h */,
+				1D1B10C23C14F49C465DE2E466791775 /* HFURLRequestSerialization.m */,
+				36D42B17CA431AF02906A5A16C0A7CEE /* HFURLResponseSerialization.h */,
+				E94B27D4FA239596F7BBD9F7881A2CAD /* HFURLResponseSerialization.m */,
+				1C228FB56AB7B67A1D1E1DF94BB73285 /* HFURLSessionManager.h */,
+				36390EAA7F5CCD249E1E9CB980BE3B7A /* HFURLSessionManager.m */,
+				51C41E29FB65F2FFD98A5BAA16F527F6 /* PrivacyInfo.xcprivacy */,
+				01367A462873B684924A728D75E1A12F /* UIActivityIndicatorView+HFNetworking.h */,
+				4E87047D24DDFFF263ACC4883852CB83 /* UIActivityIndicatorView+HFNetworking.m */,
+				56C5C1917158884B80BE05A31683A922 /* UIButton+HFNetworking.h */,
+				E74B7CE14774AD5886E4928FB7DC195A /* UIButton+HFNetworking.m */,
+				79F61D9BA64B7C8E281180B61A563370 /* UIImageView+HFNetworking.h */,
+				3C1F6731C66B57C0904C99673745E5DC /* UIImageView+HFNetworking.m */,
+				AF5DDCB020EBF688ED97E3BCFBD90744 /* UIKit+HFNetworking.h */,
+				4C2B541D7E3FE5C294EFD878C23CBF6B /* UIProgressView+HFNetworking.h */,
+				9F7705896BA1C55AE98CCB4E2F6D8733 /* UIProgressView+HFNetworking.m */,
+				AFEA7908A03061E1494971EC3FBECE1F /* UIRefreshControl+HFNetworking.h */,
+				2B0E2B38AB8F4C71D66FF828C930F1A3 /* UIRefreshControl+HFNetworking.m */,
+				01245B6B75CBAEF6C005865AE26D7083 /* WKWebView+HFNetworking.h */,
+				A91322B45009863C4BC6FDD1A973C1E1 /* WKWebView+HFNetworking.m */,
+				18243F6DE2EC4D5DAF82160D5EDEB4C6 /* Pod */,
+				C95FDAF5DD9CD22C328C4FF725F7F2CB /* Support Files */,
+			);
+			name = HFNetWorking;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		39206EA7A25003ADE15A0E9BD22EFCC9 /* Pods-HFNetWorking_Tests */ = {
@@ -209,61 +253,17 @@
 			path = "Target Support Files/Pods-HFNetWorking_Tests";
 			sourceTree = "<group>";
 		};
-		B4538AD0DCDA83217A34F829F4CC42E3 /* HFNetWorking */ = {
+		C95FDAF5DD9CD22C328C4FF725F7F2CB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A62343A8CD2BBDC9A87FB9A804047D37 /* HFAutoPurgingImageCache.h */,
-				1E3151BE4739F652E9B12D77C9795C68 /* HFAutoPurgingImageCache.m */,
-				1E24EBF0518CC65179925D1406AA2B62 /* HFCompatibilityMacros.h */,
-				CCFDD17B1D49C3696823027A55F7F950 /* HFHTTPSessionManager.h */,
-				7371A287EAF34F6179E23DA1B22B19B1 /* HFHTTPSessionManager.m */,
-				A649A2185C89CCBF123ED9638277B5E5 /* HFImageDownloader.h */,
-				F7E17117F7A0A752A6455AC89FCD9843 /* HFImageDownloader.m */,
-				4007BA1FC6A71DE9124AB0AB8CFF2FFB /* HFNetworkActivityIndicatorManager.h */,
-				27B9A861351831332D1186A9840F53B8 /* HFNetworkActivityIndicatorManager.m */,
-				139326C4421708843B3B9F78393E7BD2 /* HFNetworking.h */,
-				37FD6E25AB88AAF8B38A658618A3BFFD /* HFNetworkReachabilityManager.h */,
-				524ACFE737C93F84C0C3167EDA3F767A /* HFNetworkReachabilityManager.m */,
-				B1E42E3B75E5EAD6171754A6BB4CADFD /* HFSecurityPolicy.h */,
-				9476C80B1466BFDDEA05C8A329244F7F /* HFSecurityPolicy.m */,
-				93E3B778C6E7A2FDC6828F699FBCD14B /* HFURLRequestSerialization.h */,
-				0F700FCC2C9AA69E46CBE7FC472296AD /* HFURLRequestSerialization.m */,
-				35492EB479589BC2EA4B0EC3B8744211 /* HFURLResponseSerialization.h */,
-				798536119ECF459E6075077B53830CCC /* HFURLResponseSerialization.m */,
-				AEF07B3CC5441B27E2AB373DE1186141 /* HFURLSessionManager.h */,
-				17F54E165738355391D75D9308547C83 /* HFURLSessionManager.m */,
-				A33D1C2678B18FF82B54E0CCAF9D90B4 /* PrivacyInfo.xcprivacy */,
-				D6405F73AD62A9B6D4F79D84CCE3719C /* UIActivityIndicatorView+HFNetworking.h */,
-				85FD40BE449B0D2D7646BED0318CFFC4 /* UIActivityIndicatorView+HFNetworking.m */,
-				39B184D56DE778F24ED1ED60F6E573B0 /* UIButton+HFNetworking.h */,
-				F469A4B6CFD55C48515C056AFE6FAE6C /* UIButton+HFNetworking.m */,
-				14A3B291B79D505C145A5C87E76F00DA /* UIImageView+HFNetworking.h */,
-				94395A73FDF610E1F8A20171947731E3 /* UIImageView+HFNetworking.m */,
-				E81AB0E7E67943CE7E324E22160D6967 /* UIKit+HFNetworking.h */,
-				C0AFEDD0B725C3D83B1EEF3DA377D0E9 /* UIProgressView+HFNetworking.h */,
-				54BF6522B7A3FE17B7CD28B4365B39DC /* UIProgressView+HFNetworking.m */,
-				3299D52A3B032AE32DDF37CCC00A7ED0 /* UIRefreshControl+HFNetworking.h */,
-				F4C5929E22ED85F140F4040B366D5554 /* UIRefreshControl+HFNetworking.m */,
-				D46CCD68FEE53453674DA4E786816922 /* WKWebView+HFNetworking.h */,
-				C02A943F447A4B6088E606BB0F9CF996 /* WKWebView+HFNetworking.m */,
-				03E3BC95DE9CE6D74442FC908D18A493 /* Pod */,
-				C7594267203DE860350834887A768AC8 /* Support Files */,
-			);
-			name = HFNetWorking;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		C7594267203DE860350834887A768AC8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				89B29181B85AC3371AF2809333397EE3 /* HFNetWorking.modulemap */,
-				913E40A9B7DD41E5B09AD01C55849D18 /* HFNetWorking-dummy.m */,
-				3B1A73BAC79030C1F796F4E338DB397F /* HFNetWorking-Info.plist */,
-				7615232D9F658A21297BC859C66C6A51 /* HFNetWorking-prefix.pch */,
-				9E9FE37E607B3EB7BEDD43187B4E0661 /* HFNetWorking-umbrella.h */,
-				487BFA4A98008A4E9A0E1DC26EA541FE /* HFNetWorking.debug.xcconfig */,
-				5C47836549A851ACAB0956097E9B2929 /* HFNetWorking.release.xcconfig */,
-				426FB2629722A2BF99305FEDCADAE38E /* ResourceBundle-HFNetWorking-HFNetWorking-Info.plist */,
+				3EEAD714CAD6D614BDEA31733F82EEA6 /* HFNetWorking.modulemap */,
+				55A9A45D960895287BADD04A7174BDF3 /* HFNetWorking-dummy.m */,
+				37057B47E3485DB64962C6341561185F /* HFNetWorking-Info.plist */,
+				D9AEF2B6719ED8E96BE1931CA335016C /* HFNetWorking-prefix.pch */,
+				818463B3573E0867E1327105A487933F /* HFNetWorking-umbrella.h */,
+				8526C77BAA8ED5B7A936C8C744F08549 /* HFNetWorking.debug.xcconfig */,
+				DD1A65D2B3FB3BBBF58D7B5D5D531FBC /* HFNetWorking.release.xcconfig */,
+				9F5225CFBC898E35D0197ABC6D4DE701 /* ResourceBundle-HFNetWorking-HFNetWorking-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/HFNetWorking";
@@ -272,7 +272,7 @@
 		C9CE14D42E7932970BEC47DE27A9B16D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B4538AD0DCDA83217A34F829F4CC42E3 /* HFNetWorking */,
+				26720937D43DB652FED2E5231EB15520 /* HFNetWorking */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -344,32 +344,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		597E5976013BBFB42F6FBCF47E86335B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCF89B6A05049E68B83C12A0C13E22C0 /* HFAutoPurgingImageCache.h in Headers */,
-				47221B81378B937F9191802FA96E6318 /* HFCompatibilityMacros.h in Headers */,
-				BBE15DD7277CA141EE1987858045B7E0 /* HFHTTPSessionManager.h in Headers */,
-				416F598F20941DD79B4DD9C5713AD7C1 /* HFImageDownloader.h in Headers */,
-				8BB29FA711DCA39E26060E6F51BD7DA3 /* HFNetworkActivityIndicatorManager.h in Headers */,
-				BE8E507E45CFA21AD4F9B67E042B950A /* HFNetworking.h in Headers */,
-				5ECC06A00401956D342E032B6411183A /* HFNetWorking-umbrella.h in Headers */,
-				A86AEDDE3C879CF435E6DFD6F57D13E7 /* HFNetworkReachabilityManager.h in Headers */,
-				7DEB104C87C9EC1F3F6E72C4D6CE7668 /* HFSecurityPolicy.h in Headers */,
-				1318333C9F2EE1D793E2EF932454456C /* HFURLRequestSerialization.h in Headers */,
-				B247B524AC47B5239E455AC2423FBA45 /* HFURLResponseSerialization.h in Headers */,
-				E556C17466722CEFEC5E29CA9AC58EC1 /* HFURLSessionManager.h in Headers */,
-				0685187FF252D4F2EF0EEC7353171C62 /* UIActivityIndicatorView+HFNetworking.h in Headers */,
-				9D75F406F8213E063878C895267E3672 /* UIButton+HFNetworking.h in Headers */,
-				1D8BC85CDFFFAE0F149C3D2D37E9BD1B /* UIImageView+HFNetworking.h in Headers */,
-				836E8C0044B1CD674AC2EAAEE855B7D6 /* UIKit+HFNetworking.h in Headers */,
-				A20C7E0D809EAE3FEA5D4C3DFD6F7063 /* UIProgressView+HFNetworking.h in Headers */,
-				BC9D7AEED4EE53E88F7EF4C41C464073 /* UIRefreshControl+HFNetworking.h in Headers */,
-				F23320034EC18EF6C6946C4D101BB584 /* WKWebView+HFNetworking.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9E1D8B4FA4559701DAC679546F79C602 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,16 +360,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DBBC09AA31205C2F5F1BDDC60969C759 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E410CD334B3231E7C15889666396A6C /* HFAutoPurgingImageCache.h in Headers */,
+				F853D5176FC4FE90A3FFB21017BC0BBD /* HFCompatibilityMacros.h in Headers */,
+				92E7FA9B697E9149A1AB86920CC0D81A /* HFHTTPSessionManager.h in Headers */,
+				96F5AF662C5880750F25E5C50D6DA43D /* HFImageDownloader.h in Headers */,
+				E32CA1F11D132A37706AD5C364516F37 /* HFNetworkActivityIndicatorManager.h in Headers */,
+				6A6D40EBB9940CEBCBD71190BCAC0330 /* HFNetworking.h in Headers */,
+				CBD1607BFCAA7ED3F0FC02734EB385CC /* HFNetWorking-umbrella.h in Headers */,
+				AB466B2B30E8334FE20D23F243976199 /* HFNetworkReachabilityManager.h in Headers */,
+				22E595C5626A4EEF56EA02AA8A0B52B4 /* HFSecurityPolicy.h in Headers */,
+				56251CC021B81B2F15D9F66DA445EA18 /* HFURLRequestSerialization.h in Headers */,
+				6D142BFE2F881649AC166371C120131B /* HFURLResponseSerialization.h in Headers */,
+				83B43D00F2AA371C182ECB5ED11FD7C6 /* HFURLSessionManager.h in Headers */,
+				FCCA9B0FBCECD381F8AE1CC270EFE591 /* UIActivityIndicatorView+HFNetworking.h in Headers */,
+				70B5022B1A9EE1C36C2153FCF61E75CE /* UIButton+HFNetworking.h in Headers */,
+				2ED19C76AE7C55E6E9AAD6CD7C161554 /* UIImageView+HFNetworking.h in Headers */,
+				6B440389FBBF873FC1E32CC7289821C3 /* UIKit+HFNetworking.h in Headers */,
+				BC8F8088FE8E4C3B1958A2C329E2D2D4 /* UIProgressView+HFNetworking.h in Headers */,
+				C2D725A6B9FB72E4A7CC58E1B4B7E78B /* UIRefreshControl+HFNetworking.h in Headers */,
+				F91F5B44667995B90A90477859C6F04C /* WKWebView+HFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		256B32D6E650E865841EDFD6E2B94FC1 /* HFNetWorking-HFNetWorking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9EF729ABF8A6787AD5AEEC4F09E79D0 /* Build configuration list for PBXNativeTarget "HFNetWorking-HFNetWorking" */;
+			buildConfigurationList = 8B554D5C37F04DCE80AA2766ED6992E2 /* Build configuration list for PBXNativeTarget "HFNetWorking-HFNetWorking" */;
 			buildPhases = (
-				5075290102FC0340244F8E79D2055AC4 /* Sources */,
-				1DF1D04BE805D4EE44BD75631CED033D /* Frameworks */,
-				ADA05A43EAEB79261C2B6BFE01EB9D13 /* Resources */,
+				608E4FEF5F382D27DA0BCFD91F1BA3A0 /* Sources */,
+				68873C189851F080E789BC4C7C816C26 /* Frameworks */,
+				C3216B2F0278B20E777780CDA01EF241 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -446,17 +446,17 @@
 		};
 		FEBB959CA3F9594E39FA1DB9F5A4B5BE /* HFNetWorking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14332C613C25341DF632D8D1ADB1F07D /* Build configuration list for PBXNativeTarget "HFNetWorking" */;
+			buildConfigurationList = D9E19E89535872CB1376E6D97C66DBC9 /* Build configuration list for PBXNativeTarget "HFNetWorking" */;
 			buildPhases = (
-				597E5976013BBFB42F6FBCF47E86335B /* Headers */,
-				4294B171D26E6794610BF5708B671ABD /* Sources */,
-				E97B8996CECDBFB8D6E31A60B2B7FF07 /* Frameworks */,
-				DC938C8BBD7EDA26B66375B90B4BD82D /* Resources */,
+				DBBC09AA31205C2F5F1BDDC60969C759 /* Headers */,
+				137E23EFC8A89A44B519F471C7A864FB /* Sources */,
+				AA4EFB7DF1493CDAB8BC61A7B8B664EB /* Frameworks */,
+				4E519FE25E87949D432712AB7A9E6D06 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				58BA03B412BA91199839A8DD364E2DBD /* PBXTargetDependency */,
+				6850EAC28C745E8C42EE6F7B979BC46F /* PBXTargetDependency */,
 			);
 			name = HFNetWorking;
 			productName = HFNetWorking;
@@ -510,18 +510,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADA05A43EAEB79261C2B6BFE01EB9D13 /* Resources */ = {
+		4E519FE25E87949D432712AB7A9E6D06 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6303B9B93A5198DA4BCCF8FBD23DCD96 /* HFNetWorking-HFNetWorking in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC938C8BBD7EDA26B66375B90B4BD82D /* Resources */ = {
+		C3216B2F0278B20E777780CDA01EF241 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				098E6C91421F6B8760A9CCDD553B0051 /* HFNetWorking-HFNetWorking in Resources */,
+				C48727D28B4DFAD96BCEB1FA98216FEA /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,31 +545,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4294B171D26E6794610BF5708B671ABD /* Sources */ = {
+		137E23EFC8A89A44B519F471C7A864FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A88C8ED3A9414D505C83A2E7A9C32DA /* HFAutoPurgingImageCache.m in Sources */,
-				7D00F66A3B16F86D829B4BEBE5A0E297 /* HFHTTPSessionManager.m in Sources */,
-				ED196892D4223E0BDF81324EE95E4B04 /* HFImageDownloader.m in Sources */,
-				65B87250222B3DCE332EA314CA62BE00 /* HFNetworkActivityIndicatorManager.m in Sources */,
-				B18C5F1397FA2CDDEA03ED167D7FCB85 /* HFNetWorking-dummy.m in Sources */,
-				EB96D2FF5A41B348A49D8C76E5AB3B42 /* HFNetworkReachabilityManager.m in Sources */,
-				D68A1A1D0C410A005818BF7B2C4FB6AF /* HFSecurityPolicy.m in Sources */,
-				C1A82BB64D049CED15B278E4F95D7119 /* HFURLRequestSerialization.m in Sources */,
-				3DE97C25CB92FE65090D4275CE0CCBC4 /* HFURLResponseSerialization.m in Sources */,
-				E17B7BA5A754B26EF1AC67D4D5535410 /* HFURLSessionManager.m in Sources */,
-				C45E2A9FABED26ED0F05310C3CC3DE6E /* PrivacyInfo.xcprivacy in Sources */,
-				0801F7400B070DA117CC2252CD086F92 /* UIActivityIndicatorView+HFNetworking.m in Sources */,
-				9B2C10C7462CD60B36CD2B000E9FFDCC /* UIButton+HFNetworking.m in Sources */,
-				F7A3A62280D3A0BD70FA8D6399AB5524 /* UIImageView+HFNetworking.m in Sources */,
-				A8E124350978E72E7585ECD7DDB2FD7C /* UIProgressView+HFNetworking.m in Sources */,
-				DDA7C9EFFD01788F043676BFCA75A64C /* UIRefreshControl+HFNetworking.m in Sources */,
-				57372F48B3BE54C436027F80152B8F7A /* WKWebView+HFNetworking.m in Sources */,
+				6AFA808ECF181BC844F003E5AEF80FE9 /* HFAutoPurgingImageCache.m in Sources */,
+				A073EDC46090B4C9598B24CFB3AD7C11 /* HFHTTPSessionManager.m in Sources */,
+				30F67196D1EE7F7EFEAD5C9EEA7745A4 /* HFImageDownloader.m in Sources */,
+				352B123F5C8486FCD9D5D7D81C2627F9 /* HFNetworkActivityIndicatorManager.m in Sources */,
+				A42201E1EE7E30F6228F4BCE244AB7F7 /* HFNetWorking-dummy.m in Sources */,
+				7009D74BE9C40F4EC78AB30DD2832B84 /* HFNetworkReachabilityManager.m in Sources */,
+				73350326CEB8D1360E2729CE52CAE1B7 /* HFSecurityPolicy.m in Sources */,
+				0FA1FB8806F95FEFBE4032B96ED0ACB0 /* HFURLRequestSerialization.m in Sources */,
+				B7601CADE1B32604E45C1F1AF0CF309E /* HFURLResponseSerialization.m in Sources */,
+				8779BDCEB95FC51986027A97D9646800 /* HFURLSessionManager.m in Sources */,
+				262AE4C5B2934BD3F0A5F062D3EC6D8D /* UIActivityIndicatorView+HFNetworking.m in Sources */,
+				B4305162F55544F81CD048BA8E29A7E3 /* UIButton+HFNetworking.m in Sources */,
+				442F3C57D3817C17AB780E023B1E8E4F /* UIImageView+HFNetworking.m in Sources */,
+				26AD55DA5E7974F857992095BAAA06C6 /* UIProgressView+HFNetworking.m in Sources */,
+				B5F4076C99BBFCC00DBD5E9B089C7D5A /* UIRefreshControl+HFNetworking.m in Sources */,
+				F8EE79DA15D30AF868FA2C08E7CD178F /* WKWebView+HFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5075290102FC0340244F8E79D2055AC4 /* Sources */ = {
+		608E4FEF5F382D27DA0BCFD91F1BA3A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -584,11 +584,11 @@
 			target = FEBB959CA3F9594E39FA1DB9F5A4B5BE /* HFNetWorking */;
 			targetProxy = E4C75C7EC45C130BDD6597047B16B956 /* PBXContainerItemProxy */;
 		};
-		58BA03B412BA91199839A8DD364E2DBD /* PBXTargetDependency */ = {
+		6850EAC28C745E8C42EE6F7B979BC46F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "HFNetWorking-HFNetWorking";
 			target = 256B32D6E650E865841EDFD6E2B94FC1 /* HFNetWorking-HFNetWorking */;
-			targetProxy = 5AE7ABEBC7FB89D6A6C3002B6CDDD476 /* PBXContainerItemProxy */;
+			targetProxy = 55EC6B73B51B0D1CFB52ECB21E6C09EA /* PBXContainerItemProxy */;
 		};
 		9E1AF5E59606D67504FCC70112FE4F9F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -599,23 +599,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0DB54BF85D7D56137C9A721737A1C2F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 487BFA4A98008A4E9A0E1DC26EA541FE /* HFNetWorking.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HFNetWorking";
-				IBSC_MODULE = HFNetWorking;
-				INFOPLIST_FILE = "Target Support Files/HFNetWorking/ResourceBundle-HFNetWorking-HFNetWorking-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = HFNetWorking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -679,6 +662,23 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5959EFADDC75C48502D26A6D2246B89F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8526C77BAA8ED5B7A936C8C744F08549 /* HFNetWorking.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HFNetWorking";
+				IBSC_MODULE = HFNetWorking;
+				INFOPLIST_FILE = "Target Support Files/HFNetWorking/ResourceBundle-HFNetWorking-HFNetWorking-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = HFNetWorking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -817,9 +817,26 @@
 			};
 			name = Release;
 		};
-		7AE6748C029CD3B3C426C025E7EC6373 /* Release */ = {
+		8E0BB12B0BD81B1CAB2562444B4EBB27 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C47836549A851ACAB0956097E9B2929 /* HFNetWorking.release.xcconfig */;
+			baseConfigurationReference = DD1A65D2B3FB3BBBF58D7B5D5D531FBC /* HFNetWorking.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HFNetWorking";
+				IBSC_MODULE = HFNetWorking;
+				INFOPLIST_FILE = "Target Support Files/HFNetWorking/ResourceBundle-HFNetWorking-HFNetWorking-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = HFNetWorking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8E15E7640F58F90CFB6ADCFD9730C12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD1A65D2B3FB3BBBF58D7B5D5D531FBC /* HFNetWorking.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -851,23 +868,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9AB9ECAF9C6EA7403672184B29F05603 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C47836549A851ACAB0956097E9B2929 /* HFNetWorking.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HFNetWorking";
-				IBSC_MODULE = HFNetWorking;
-				INFOPLIST_FILE = "Target Support Files/HFNetWorking/ResourceBundle-HFNetWorking-HFNetWorking-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = HFNetWorking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -907,9 +907,9 @@
 			};
 			name = Debug;
 		};
-		D3943438B8F293EFF81DC6102EEA2DF0 /* Debug */ = {
+		CE0D0952976D96BCB499A9CD6447FDB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 487BFA4A98008A4E9A0E1DC26EA541FE /* HFNetWorking.debug.xcconfig */;
+			baseConfigurationReference = 8526C77BAA8ED5B7A936C8C744F08549 /* HFNetWorking.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -983,15 +983,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14332C613C25341DF632D8D1ADB1F07D /* Build configuration list for PBXNativeTarget "HFNetWorking" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D3943438B8F293EFF81DC6102EEA2DF0 /* Debug */,
-				7AE6748C029CD3B3C426C025E7EC6373 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1001,11 +992,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9EF729ABF8A6787AD5AEEC4F09E79D0 /* Build configuration list for PBXNativeTarget "HFNetWorking-HFNetWorking" */ = {
+		8B554D5C37F04DCE80AA2766ED6992E2 /* Build configuration list for PBXNativeTarget "HFNetWorking-HFNetWorking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DB54BF85D7D56137C9A721737A1C2F9 /* Debug */,
-				9AB9ECAF9C6EA7403672184B29F05603 /* Release */,
+				5959EFADDC75C48502D26A6D2246B89F /* Debug */,
+				8E0BB12B0BD81B1CAB2562444B4EBB27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E19E89535872CB1376E6D97C66DBC9 /* Build configuration list for PBXNativeTarget "HFNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0D0952976D96BCB499A9CD6447FDB8 /* Debug */,
+				8E15E7640F58F90CFB6ADCFD9730C12A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
