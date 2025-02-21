@@ -1,0 +1,6 @@
+framework module HFNetWorking {
+  umbrella header "HFNetWorking-umbrella.h"
+
+  export *
+  module * { export * }
+}
