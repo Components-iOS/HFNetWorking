@@ -1,6 +1,6 @@
 {
   "name": "HFNetWorking",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "网络请求",
   "description": "网络请求工具",
   "homepage": "https://github.com/Components-iOS",
@@ -13,14 +13,16 @@
   },
   "source": {
     "git": "https://github.com/Components-iOS/HFNetWorking.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "12.0"
   },
   "requires_arc": true,
-  "source_files": "HFNetWorking/Classes/**/*",
   "resource_bundles": {
-    "HFNetWorking": "HFNetWorking/PrivacyInfo.xcprivacy"
-  }
+    "HFNetWorking": [
+      "HFNetWorking/Assets/PrivacyInfo.xcprivacy"
+    ]
+  },
+  "source_files": "HFNetWorking/Classes/**/*"
 }

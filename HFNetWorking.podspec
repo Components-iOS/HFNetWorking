@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HFNetWorking'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '网络请求'
   s.description      = <<-DESC
 网络请求工具
@@ -20,6 +20,11 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "12.0"
   s.ios.deployment_target = '12.0'
   s.requires_arc = true
+  
+  s.resource_bundles = {
+      'HFNetWorking' => ['HFNetWorking/Assets/PrivacyInfo.xcprivacy']
+  }
+  
   s.source_files = 'HFNetWorking/Classes/**/*'
-  s.resource_bundles = {'HFNetWorking' => 'HFNetWorking/Classes/PrivacyInfo.xcprivacy'}
+
 end

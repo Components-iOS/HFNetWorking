@@ -1,5 +1,5 @@
 PODS:
-  - HFNetWorking (0.1.0)
+  - HFNetWorking (0.1.1)
 
 DEPENDENCIES:
   - HFNetWorking (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HFNetWorking: eb9be1b88cc18969ddd410cfb4a40afab8f038b2
+  HFNetWorking: 564226f2724d31f1a88ee53dbfd019b1c92d18ad
 
 PODFILE CHECKSUM: e990c52207208f96e136727aa4158ff87a6dd7fd
 
